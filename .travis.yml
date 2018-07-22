@@ -1,14 +1,16 @@
 language: java
 jdk:
-  - oraclejdk8
+- oraclejdk8
 before_install:
-  - chmod +x gradlew
-  - chmod +x gradle/wrapper/gradle-wrapper.jar
+- chmod +x gradlew
+- chmod +x gradle/wrapper/gradle-wrapper.jar
 script:
-  - ./gradlew test build
-
-# cache between builds
+- "./gradlew test build"
 cache:
   directories:
-  - $HOME/.m2
-  - $HOME/.gradle
+  - "$HOME/.m2"
+  - "$HOME/.gradle"
+deploy:
+  provider: bintray
+  key:
+    secure: YW0xX+VT2ugLKVv/nQ9lZKVN3v/g4Vy14A+EwZlSRdgJ73NILEE8xHUZXvZJBA3I1wJWOCMTWc2nJfu19ipUincnw2NEcOxp2oKoHHQ/UdiEAMr/S4JTBHeoMm2gUBEFfz6hR4CJyTQaJDcWJjjiaGKQ1OV3YZjSLPol4zkim9Thl0rTLm50EvQMjIGqB07RcTSYfHilRpS97ODo6FXBPoaFTP7PaeEJ3r7Cnr9vsSBIhYp6IUBajOPcHVP1zS3LJqAKIwdZeHuP7IyRlDr54rdsnTSJW6tS/NNt5QA75yVcpLKMWx/xDfzmGI4AVgaR1iFqmutWZHP5k3Rs9nQMMexTYmsh3ORfyljjt86hNaGxykBCjdmuHDw6CezZN5Ehd2IJqnX2f36pJfZhNi/y59VFKspiUrtpaos3q2bz8Xdw5IiD0p0jjCuQWhtLMUqzOh0q+zF1ZlTkMITHdHhJYUpODKqvdSLFevd4Tp/rVYztqBCXiWpGs0MjMi0QgFwH646202m3vWXopJAMi8nxWCPs+d4eZfoNY2meUosQVkO2BGiiVpN3+90YZ7UTZeENo7rGM/IZxFkZv8XrBpGVHpTYv34BBs70Nc+hIlS2B0a/08+G3NeVWc3lQFktRBZosDWtfhMmzHwnNr24ZWBrF9d3IcipSZEu7iIeCjoDCuU=
