@@ -1,0 +1,19 @@
+{
+    "package": {
+        "name": "pyslice",
+        "repo": "pyslice",
+        "subject": "pravsonawane",
+        "desc": "Python style array slicing for Kotlin",
+        "website_url": "https://github.com/PravSonawane/pyslice",
+        "issue_tracker_url": "https://github.com/PravSonawane/pyslice/issues",
+        "vcs_url": "https://github.com/PravSonawane/pyslice.git",
+        "licenses": ["Apache 2.0"]
+    },
+    "version": {
+        "name": "0.1",
+        "desc": "First draft. Includes core functionality. May contain bugs",
+        "released": "2018-07-21",
+        "vcs_tag": "0.1"
+    },
+    "publish": true
+}
