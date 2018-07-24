@@ -10,7 +10,8 @@ buildscript {
     }
 }
 
-group 'pyslice'
+group 'kodepoet'
+version '0.1'
 
 apply plugin: 'kotlin'
 
