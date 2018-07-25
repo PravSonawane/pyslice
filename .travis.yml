@@ -11,6 +11,7 @@ cache:
   - "$HOME/.m2"
   - "$HOME/.gradle"
 deploy:
+  skip_cleanup: true
   provider: bintray
   file: "descriptor.json"
   user: "pravsonawane"
