@@ -15,5 +15,12 @@
         "released": "2018-07-21",
         "vcs_tag": "0.1"
     },
+
+    "files":
+    [{"includePattern": "build/libs/*", "uploadPattern": "$1",
+        "matrixParams": {
+            "override": 1 }
+    }
+    ],
     "publish": true
 }
