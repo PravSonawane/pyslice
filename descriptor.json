@@ -17,7 +17,7 @@
     },
 
     "files":
-    [{"includePattern": "build/libs/*", "uploadPattern": "$1",
+    [{"includePattern": "build/libs/(.*)", "uploadPattern": "$1",
         "matrixParams": {
             "override": 1 }
     }
