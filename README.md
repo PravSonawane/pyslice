@@ -13,12 +13,12 @@ Download [the latest JAR][1] or grab via Maven:
 <dependency>
   <groupId>io.github.pravsonawane</groupId>
   <artifactId>pyslice</artifactId>
-  <version>0.1</version>
+  <version>0.x</version>
 </dependency>
 ```
 or Gradle:
 ```groovy
-implementation 'io.github.pravsonawane:pyslice:0.1'
+implementation 'io.github.pravsonawane:pyslice:0.x'
 ```
 
 ## Running the tests
