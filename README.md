@@ -54,7 +54,7 @@ implementation 'io.github.pravsonawane:pyslice:0.x'
 The following will run all tests
 
 ```
-./gradlew test
+projectRootDir$./gradlew test
 ```
 
 ## Considerations
